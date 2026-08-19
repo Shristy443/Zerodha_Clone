@@ -1,0 +1,18 @@
+.links {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.links > div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.links a{
+  text-decoration: none;
+  color:rgb(56, 49, 49);
+}
+.links a:hover {
+  color: blue;
+}

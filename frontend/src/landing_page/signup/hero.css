@@ -1,0 +1,24 @@
+.phone-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 350px;
+  height: 45px;
+  padding: 0 12px;
+  margin-left:80px
+}
+
+.phone-box span {
+  color: #555;
+  margin-right: 10px;
+  border-right: 1px solid #ddd;
+  padding-right: 10px;
+}
+
+.phone-box input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 16px;
+}
